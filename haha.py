@@ -34,16 +34,35 @@
 
 # show_args("apple", 42, True)
 
-def logger(func):
-    def wrapper(*args, **kwargs):
-        print(f"Running {func.__name__}")
-        return func(*args, **kwargs)
-    return wrapper
+# def logger(func):# List comprehension
+# squares = [x**2 for x in range(10)]
 
-@logger
-def greet(name):
-    print(f"Hello, {name}")
+# # Dict comprehension
+# sqr_map = {x: x**2 for x in range(5)}
 
-greet("Alice")
+# # Set comprehension
+# unique = {x for x in [1, 2, 2, 3, 3]}
 
+# # Generator expression
+# sqr_gen = (x**2 for x in range(10))
+
+# print(squares)
+# print(sqr_map)
+# print(unique)
+# print(sqr_gen)
+
+try:
+    x = 1 / 0
+except ZeroDivisionError:
+    print("Can't divide by zero!")
+finally:
+    print("Done")
+
+class MyError(Exception):
+    pass
+
+try:
+    raise MyError("This is an error")
+except MyError as e:
+    print(e)
 
