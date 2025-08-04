@@ -48,16 +48,16 @@
 #     x=x+i
 # print(x)
 # 7. Find the Minimum and Maximum
-numbers = [12, 3, 9, 1, 5]
+# numbers = [12, 3, 9, 1, 5]
 #     Output: (1, 12)
-max=0
-min=numbers[0]
-for i in numbers:
-    if i>max:
-        max=i
-    if i<min:
-        min=i
-print(min,max,sep=",")
+# max=0
+# min=numbers[0]
+# for i in numbers:
+#     if i>max:
+#         max=i
+#     if i<min:
+#         min=i
+# print(min,max,sep=",")
         
 
 # 8. Check if All Elements are Positive
