@@ -87,7 +87,7 @@
 # print(information)
 # a=information
 # print(a)
-# # print(id(a),id(information))
+# print(id(a),id(information))
 # a.clear()
 # print(a)
 # print(information)
@@ -95,8 +95,8 @@
 # for i in range(1,11):
 #     list.append(i)
 # print(list)
-list=(i for i in range(1,11) if i%2==0)
-print(list)
+# list=(i for i in range(1,11) if i%2==0)
+# print(list)
 
 
 
